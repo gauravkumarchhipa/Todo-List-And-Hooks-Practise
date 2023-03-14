@@ -6,7 +6,7 @@ const UseContextHooks3 = () => {
   const name = useContext(BioData);
   return (
     <div>
-      <h1>My name is {name}</h1>
+      <h1>My name is a {name}</h1>
     </div>
   )
 }

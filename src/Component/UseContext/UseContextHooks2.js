@@ -1,9 +1,12 @@
 import React from 'react'
-import UseContextHooks3 from './UseContextHooks3'
+import { Rollnumber } from './UseContextHooks';
+import { useContext } from 'react';
 
 const UseContextHooks2 = () => {
+  const name = useContext(Rollnumber);
   return (
-    <div><UseContextHooks3 /></div>
+    <div><h1>Roll Number is{name}</h1>
+    </div>
   )
 }
 
