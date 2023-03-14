@@ -2,7 +2,7 @@ import React from 'react'
 import UseContextHooks2 from './UseContextHooks2'
 import { createContext } from 'react'
 
-const BioData = createContext();
+export const BioData = createContext();
 
 const UseContextHooks = () => {
   return (
@@ -15,4 +15,3 @@ const UseContextHooks = () => {
 }
 
 export default UseContextHooks
-export {BioData};

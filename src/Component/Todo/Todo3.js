@@ -14,7 +14,7 @@ const getLocalItems = () => {
         return [];
     }
 }
- 
+
 const Todo3 = () => {
 
     
@@ -52,7 +52,6 @@ const Todo3 = () => {
             const allInputdata = {id: new Date().getTime().toString(), name : inputData}
             setItem([...item, allInputdata]);
             setInputData('');
-            console.log();
         }
     }
 

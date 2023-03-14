@@ -110,6 +110,15 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/aboutus">About <span className="sr-only"></span></Link>
                         </li>
+
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hooks Practice
+                            </Link>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <Link className="nav-link" to="/usememo">UseMamo</Link>
+                            </div>
+                        </li>
                                 
                     </ul>
 

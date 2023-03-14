@@ -6,7 +6,7 @@ const UseCallbackHooks3 = ({todos, addTodo}) => {
     <>
     <h2>My Todos</h2>
     {todos.map((todo, index)=>{
-      return <p key={index}>{todo + index}</p>
+      return <p key={index }>{todo + index}</p>
       
     })}
     <button type="button" className="btn btn-primary" onClick={addTodo}>Add Todo</button>

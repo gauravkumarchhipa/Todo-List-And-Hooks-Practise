@@ -79,24 +79,24 @@ const Todo2 = () => {
                   <th scope="col">Actions</th>
                 </tr>
               </thead>
-              <tbody>
+            <tbody>
   
-                  {
-                    item.map((ele, ind)=>{
-                        return(
-                            <tr key={ind}>
-                                <th scope="row" >{ind + 1}</th>
-                                <td>{ele}</td>
-                                <td>In progress</td>
-                                <td>
-                                <div className='eachItem' key={ind}>
-                                <button type="button" className="btn btn-danger" onClick={()=>deleteItem(ind)}>Delete</button>
-                                </div>
-                            </td>
-                            </tr>
-                        )
-                    })
-                }               
+              {
+                item.map((ele, ind)=>{
+                    return(
+                        <tr key={ind}>
+                            <th scope="row" >{ind + 1}</th>
+                            <td>{ele}</td>
+                            <td>In progress</td>
+                            <td>
+                            <div className='eachItem' key={ind}>
+                            <button type="button" className="btn btn-danger" onClick={()=>deleteItem(ind)}>Delete</button>
+                            </div>
+                        </td>
+                      </tr>
+                    )
+                })
+              }               
             </tbody>
         </table>
         <br/>

@@ -39,6 +39,7 @@ import {
 } from "react-router-dom";
 
 import Reduxapp from './Component/Redux/Js/Reduxapp';
+import Usememo from './Component/Hooks Practice/Usememo1';
 
 const App = () =>{
  
@@ -88,6 +89,8 @@ const App = () =>{
         <Route  path="/UseContextHooks3" element={<UseContextHooks3/>} />
 
         <Route  path="/redux1" element={<Reduxapp/>} />
+
+        <Route  path="/usememo" element={<Usememo/>} />
 
         </Routes> 
       </Router>

@@ -17,6 +17,7 @@ const UseMemoHook = () => {
   const checkData = useMemo(()=>{
     return countNumber(myNum);
   }, [myNum]);
+
   
   // const checkData = countNumber(myNum);
   
@@ -24,7 +25,9 @@ const UseMemoHook = () => {
   return (
     <>
       <button type="button" className="btn btn-danger" onClick={getvalue} >Counter</button>
-      <p>My new number : {checkData}</p>
+      <p>My new number : 
+        {checkData}  
+        </p>
       <button type="button" className="btn btn-primary" onClick={()=> setShow(!show)}>
         {show ? "You clicked me" : "Click me plz"}
       </button>
