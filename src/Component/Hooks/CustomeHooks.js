@@ -3,9 +3,9 @@ import {useState } from 'react'
 import useCustomeHooks2 from './useCustomeHooks2';
 const CustomeHooks = () => {
 
-    const [count, setCount] = useState(0);
-    
-    useCustomeHooks2(count);
+  const [count, setCount] = useState(0);
+  
+  useCustomeHooks2(count);
 
   return (
      <div className='container'>

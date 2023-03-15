@@ -117,6 +117,13 @@ export default function Navbar() {
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <Link className="nav-link" to="/usememo">UseMamo</Link>
+                            <Link className="nav-link" to="/reducer1">UseReducer1</Link>
+                            <Link className="nav-link" to="/reducer2">UseReducer2</Link>
+                            <Link className="nav-link" to="/reducer3">UseReducer3</Link>
+
+                            <Link className="nav-link" to="/customehook1">CustomeHooks</Link>
+                            <Link className="nav-link" to="/usedeferdvalue">UseDeferdvalue</Link>
+                            <Link className="nav-link" to="/useid">UseId</Link>
                             </div>
                         </li>
                                 

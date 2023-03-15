@@ -40,6 +40,12 @@ import {
 
 import Reduxapp from './Component/Redux/Js/Reduxapp';
 import Usememo from './Component/Hooks Practice/Usememo1';
+import Reducer1 from './Component/Hooks Practice/UseReducer/Reducer1';
+import Reducer2 from './Component/Hooks Practice/UseReducer/Reducer2';
+import TodoList from './Component/Hooks Practice/UseReducer/TodoList';
+import CustomeHook1 from './Component/Hooks Practice/CustomeHook/customehook1';
+import UseDeferdvalue from './Component/Hooks Practice/useDeferredValue/UseDeferdvalue';
+import UseId from './Component/Hooks Practice/UseId/UseId';
 
 const App = () =>{
  
@@ -91,7 +97,13 @@ const App = () =>{
         <Route  path="/redux1" element={<Reduxapp/>} />
 
         <Route  path="/usememo" element={<Usememo/>} />
+        <Route  path="/reducer1" element={<Reducer1/>} />
+        <Route  path="/reducer2" element={<Reducer2/>} />
+        <Route  path="/reducer3" element={<TodoList/>} />
 
+        <Route  path="/customehook1" element={<CustomeHook1/>} />
+        <Route  path="/usedeferdvalue" element={<UseDeferdvalue/>} />
+        <Route  path="/useid" element={<UseId/>} />
         </Routes> 
       </Router>
     </div>
